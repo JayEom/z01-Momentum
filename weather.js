@@ -51,4 +51,4 @@ function init() {
     loadCoords();
 }
 
-init();
+init(); 
