@@ -10,3 +10,11 @@ body {
     color : #f39c12;
   }
   
+  .form,
+  .greetings {
+    display: none;
+  }
+
+  .showing {
+    display: block;
+  }
