@@ -1,4 +1,6 @@
-const weather = document.querySelector(".js-weather");
+const info = document.querySelector(".weather-info");
+    weather = info.querySelector("span");
+    img = info.querySelector("img");
 
 const API_KEY = "3fe0f304dfc320eff81d28c4cf70eac4";
 const COORDS = "coords";
@@ -9,9 +11,12 @@ function getWeather(lat, lon) {
         ).then(function (response) {
             return response.json();
         }).then(function (json) {
+            const icon = json.weather[0].icon;
             const temperature = json.main.temp;
             const place = json.name;
-            weather.innerText = `${temperature} @ ${place}`;
+
+            img.src = `https://openweathermap.org/img/wn/${icon}.png`;
+            weather.innerText = `${temperature}℃ @ ${place}`;
         });
 }
 
