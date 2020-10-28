@@ -1,5 +1,6 @@
 # z01-Momentum
 nomadcoders.co 크롬 모멘텀 클론 코딩 
+https://nomadcoders.co/javascript-for-beginners/lobby 과정
 
 ## 기능
 - 시간
