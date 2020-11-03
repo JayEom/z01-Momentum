@@ -10,4 +10,4 @@ https://nomadcoders.co/javascript-for-beginners/lobby 과정
 - 날씨, 지역
 
 # Try it out
-https://jayeom.github.io/z01-Momentum/
+https://jayeom-fitz.github.io/z01-Momentum/
